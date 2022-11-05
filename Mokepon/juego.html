@@ -6,13 +6,17 @@
         <meta charset="utf-8" />
         <title>MOKEPON!</title>
         <script src="/Mokepon/juego.js"></script>
+        <link rel="stylesheet" href="/Mokepon/style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     </head>
 
 
     <body>
         <h1>MOKEPON! 🔥💧🌱</h1>
 
-        <section id="seleccionar-mascota">
+        <section class="elegir-mascota" id="seleccionar-mascota">
 
             <h2>Elige tu mascota:</h2>
 
@@ -26,12 +30,12 @@
             <input type="radio" name="mascota" id="ratigueya" />
 
             <button id="boton-mascota">Seleccionar</button>
+            
         </section>
 
         <section id="seleccionar-ataque">
             <h2>Elige tu ataque:</h2>
 
-            <h2>Elige tu ataque:</h2>
             <p>Tu mascota <span id="mascota-jugador"></span> tiene <span id="vidas-jugador">3</span> vidas</p>
             <p>La mascota <span id="mascota-enemigo"></span> del enemigo tiene <span id="vidas-enemigo">3</span> vidas</p>
         
